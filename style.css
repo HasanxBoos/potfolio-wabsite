@@ -1,0 +1,95 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav > ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 80px;
+}
+a{
+    text-decoration: none;
+    margin-right: 30px;
+}
+nav > h3{
+    font-weight: 800;
+    font-size: xx-large;
+    margin-left: 40px;
+}
+.name{
+    color: coral;
+}
+.btn-color{
+    background-color: darkorange;
+}
+button{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 36px;
+    background-color: var(--orange);
+    border-radius: 8px;
+    border: none;;
+}
+body{
+    font-family: "Open Sans", serif;
+}
+.btn-1{
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+   
+}
+.btn-2{
+    background-color: white;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #FD6E0A;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+.hasan{
+    display: flex;
+    background-image: url(/pic-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    justify-content: space-between;
+}
+.hdr{
+    background-color: rgb(250, 239, 238);
+}
+.banner{
+    padding-left: 40px;
+    padding-top: 50px
+}
+.hi1{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Open Sans", serif
+
+}
+.hi2{
+    color: black;
+    font-size: 85px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Open Sans", serif
+}
