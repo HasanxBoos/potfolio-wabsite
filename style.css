@@ -14,9 +14,9 @@ a{
     text-decoration: none;
     margin-right: 30px;
 }
-nav > h3{
+nav > h1{
     font-weight: 800;
-    font-size: xx-large;
+    font-size: 50px;
     margin-left: 40px;
 }
 .name{
@@ -64,7 +64,12 @@ body{
     justify-content: space-between;
 }
 .hdr{
-    background-color: rgb(250, 239, 238);
+    background-color: #FFF8F3;
+    background-image: url(/developer.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    justify-content: space-between;
+    padding: 100px;
 }
 .banner{
     padding-left: 40px;
@@ -92,4 +97,57 @@ body{
     box-sizing: border-box;
     list-style: none;
     font-family: "Open Sans", serif
+}
+.ami{
+    border-radius: 10px;
+    padding: 100px 130px;
+    text-align: center;
+    margin: 130px 0px;
+    background-color:  #FFF8F3;
+}
+main{
+    padding: 100px;
+}
+.bd{
+    font-size: 70px;
+}
+.ami2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ami14{
+    font-weight: 700;
+}
+.section-title{font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.skills-container {
+    display: flex;
+    gap: 30px;
+    margin: 50px 0;
+}
+.skill {
+    padding: 30px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: rgb(188, 187, 187) 0px 6px 50px 0px;
+}
+.sectionbro{
+    font-size: 16px;
+    color: #757575;
+    text-align: justify;
+    text-align: center;
+}
+.pi{
+    font-size: xx-large;
+    text-align: center;
+    padding: 50px;
+}
+.resume-container{
+    display:flex;
+    gap: 20px;
 }
